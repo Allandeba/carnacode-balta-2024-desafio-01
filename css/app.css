@@ -100,7 +100,8 @@ input[type='text'] {
 }
 
 .img-logo,
-.img-history {
+.img-history,
+.img-logo-main {
   border-radius: 15px;
 }
 
@@ -109,6 +110,13 @@ input[type='text'] {
   width: 95px;
   border: 3px solid #45fefe;
   padding: 10px;
+}
+
+.img-logo-main {
+  height: 180px;
+  width: 180px;
+  padding: 20px;
+  background-color: white;
 }
 
 .img-history {
@@ -148,4 +156,8 @@ input[type='text'] {
 hr {
   margin-top: 10px;
   color: #6c757d;
+}
+
+.main-background {
+  background-color: #2e1462;
 }
