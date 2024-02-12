@@ -22,13 +22,16 @@ h1 {
   margin-bottom: 10px;
 }
 
-.flex-row {
+.flex-row,
+.flex-column {
   display: flex;
+}
+
+.flex-row {
   flex-direction: row;
 }
 
 .flex-column {
-  display: flex;
   flex-direction: column;
 }
 
@@ -46,8 +49,8 @@ h1 {
 .calculator .btn-primary {
   background-color: #45fefe;
   border: none;
-  color: #000000;
-  filter: drop-shadow(0 0 0.1rem #000000);
+  color: #000;
+  filter: drop-shadow(0 0 0.1rem #000);
   margin-bottom: 10px;
   border-radius: 15px;
   font-weight: bold;
@@ -59,8 +62,23 @@ h1 {
   border-radius: 15px;
 }
 
+.calculator-history {
+  width: 343px;
+  height: 77px;
+  margin-bottom: 10px;
+  padding: 0.5rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.text-bold {
+  font-weight: bold;
 }
 
 .text-muted {
@@ -79,4 +97,55 @@ input[type='text'] {
   height: 50px;
   margin-bottom: 10px;
   text-indent: 10px;
+}
+
+.img-logo,
+.img-history {
+  border-radius: 15px;
+}
+
+.img-logo {
+  height: 95px;
+  width: 95px;
+  border: 3px solid #45fefe;
+  padding: 10px;
+}
+
+.img-history {
+  height: 32px;
+  width: 32px;
+  margin: 5px;
+  background-color: #f6f6f6;
+}
+
+.time {
+  align-items: flex-end;
+  font-size: smaller;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history {
+  font-size: small;
+  font-weight: lighter;
+}
+
+.history-content {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-left: 0px;
+}
+
+.history-icon {
+  margin-left: 5px;
+}
+
+hr {
+  margin-top: 10px;
+  color: #6c757d;
 }

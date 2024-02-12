@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <title>Histórico</title>
+  </head>
+  <body>
+    <div class="calculator flex-column">
+      <div class="text-center">
+        <img class="img-logo" src="assets/icon-no-bg.png" alt="Logo" />
+        <h1>Histórico</h1>
+      </div>
+
+      <input type="text" id="pesquisa" name="pesquisa" placeholder="Pesquisar..." />
+
+      <div class="flex flex-column">
+        <div class="flex flex-row calculator-history">
+          <img class="img-history" alt="Histórico" src="" />
+
+          <div class="flex-column">
+            <div class="flex-row">
+              <div class="flex-row history-content">
+                <h5 class="text-start text-bold">Peso ideal</h5>
+                <i class="fa-solid fa-square-check history-icon" style="color: #18e239"></i>
+              </div>
+
+              <div class="time text-muted">
+                <span>8m atrás</span>
+              </div>
+            </div>
+
+            <h6 class="history">Parabéns, você está no seu peso ideal, continue mantendo este estilo!</h6>
+            <hr />
+          </div>
+        </div>
+
+        <div class="flex flex-row calculator-history">
+          <img class="img-history" alt="Histórico" src="" />
+
+          <div class="flex-column">
+            <div class="flex-row">
+              <div class="flex-row history-content">
+                <h5 class="text-bold">Sobrepeso</h5>
+                <i class="fas fa-minus-circle history-icon" style="color: #eb0a0a"></i>
+              </div>
+
+              <div class="time text-muted">
+                <span>12/10/2023</span>
+              </div>
+            </div>
+
+            <h6 class="history">Estamos quase lá! Faça alguns ajustes para ficar no peso ideal!</h6>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
